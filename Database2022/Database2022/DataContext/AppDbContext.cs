@@ -15,7 +15,7 @@ namespace Database2022
         //Tablas de base de datos
         public DbSet<Person> People { get; set; }
         //Tabla Estudiante de base de datos
-        public DbSet<Estudiante> Estudiante { get; set; }
+        public DbSet<Estudiante> Estudiantes { get; set; }
 
 
 
