@@ -6,7 +6,7 @@ namespace Database2022.Models
 {
     public class Estudiante
     {
-        public int EstudianteID { get; set; }
+        public int EstudianteId { get; set; }
         public string Nombre { get; set; }
         public DateTime FechaNacimiento { get; set; }
         public double Nota { get; set; }
