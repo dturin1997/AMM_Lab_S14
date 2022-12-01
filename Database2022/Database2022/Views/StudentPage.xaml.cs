@@ -14,7 +14,7 @@ namespace Database2022.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class StudentPage : ContentPage
     {
-        public StudentPage()
+        public StudentPage(Student student)
         {
             InitializeComponent();
             this.BindingContext = new StudentViewModel(student);
